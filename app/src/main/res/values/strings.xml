@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">PrintDemo</string>
+    <!-- connect页面 -->
+     <string name="text_type">Name</string>
+    <string name="text_porttype">Port</string>
+    <string name="text_printway">Transfe</string>
+    <!-- <string name="text_type">Printer Name</string>
+    <string name="text_porttype">Port Type</string>
+    <string name="text_printway">Transport Mode </string> -->
+    <string name="TextView_close">Close</string>
+    <string name="TextView_linktest">Next Page</string>
+    <string name="mes_confail">Connect Fail</string>
+    <string name="mes_consuccess">Connect Success</string>
+    <string name="mes_nextpage">Please Connect </string>
+    <!-- printmode页面 -->
+    <string name="button_text">Text</string>
+    <string name="button_pic">Graphic</string>
+    <string name="button_label">Label Print</string>
+    <string name="mes_noeg">This print is not label printer or its not support this printer type currently</string>
+    <!-- general页面 -->
+    <string name="editText1">x</string>
+    <string name="editText2">y</string>
+     <string name="autoCompleteText_text">Print Text</string>
+    <string name="textView_3">Width</string>
+    <string name="textView_4">Hight</string>
+    <string name="checkBox01">Width</string>
+    <string name="checkBox02">Hight</string>
+    <string name="checkBox03">Bold</string>
+    <string name="checkBox04">Underline</string>
+    <string name="checkBox05">small</string>
+    <string name="checkBox06">Label</string>
+    <string name="checkBox07">Inverse</string>
+    <string name="radio0">Left</string>
+    <string name="radio1">Center</string>
+    <string name="radio2">Right</string>
+    <string name="button_printtext">Print</string>
+     <string name="button_state">Status</string>
+    <string name="mes_stateOK">The printer status:Normal state</string>
+    <string name="mes_statePE">The printer status:No Paper</string>
+    <string name="mes_stateNet">The printer status:Network Errors</string>
+     <string name="button_cutpaper">Cut</string>
+    <!-- barcode页面 -->
+    <string name="barcode">Barcode</string>
+    <string name="QRcode">QRcode</string>
+    <!-- <string name="bartype">文本</string> -->
+    <string name="textView_bartype">Type</string>
+    <string name="textView_bartext">Content </string>
+    <string name="textView_barwide">Width</string>
+    <string name="textView_barhight">Hight</string>
+    <string name="textView_barhri">Position</string>
+    <string name="textView_barsize">zoom</string>
+    <string name="textView_barversion">Versiom</string>
+    <string name="textView_barerr">Ecc</string>
+    <string name="textView_barlines">Line</string>
+    <string name="button_barPrint">Print</string>
+    <!-- textapply页面和 picapply页面差不多可参考 -->
+    <string name="button_movie">Movie Tickets</string>
+    <string name="button_fire">Train Tickets </string>
+    <string name="button_shopping">Shopping Coupon</string>
+    <!-- lang页面和printdraw,general页面是一样的可以用一个 -->
+    <string name="checkBox_lanlab">Label</string>
+    <string name="textView_lanw">Width</string>
+    <string name="textView_lanh">Hight</string>
+    <string name="button_printlan">Print</string>
+    <string name="autoCompleteText_lan">
+	Chinese --> 我爱你\r\nEnglish --> I love you\r\nFrench --> Je t`aime\r\nGerman --> Ich liebe Dich\r\nFinland --> Minarakastan sinua\r\nHolland --> IK hou van jou\r\nCzech  --> Miluji te\r\nDanish--> Jeg elsker dig\r\nRussian--> Я люблю тебя\r\nJapanese --> あいしてる\r\nKorean --> 사랑해 \r\nThai--> Ch`an Rak Khun\r\nVietnamese --> Em ye`u anh\r\nIcelandic --> e`g elska tig\r\nSwedish --> Jag lskar dig\r\nJewish--> Ani ohev otach\r\nHungarian --> Szeretlek\r\nGreek --> S`agapo\r\nLithuanian --> Tave Myliu\r\n
+	</string>
+    <!-- printdraw页面 -->
+    <string name="checkBox_pic">Label</string>
+    <string name="textView3">Width</string>
+    <string name="textView4">Hight</string>
+    <string name="button_pridraw">Print</string>
+    <!-- picapply页面 -->
+    <string name="button_picmovie">Movie Tickets</string>
+    <string name="button_picfire">Train Tickets</string>
+    <string name="button_picshopping">Shopping Coupon</string>
+    <string name="button_pictable">Table</string>
+    <!-- bluetooth页面 -->
+    <string name="Text_bt">BlueTooth Port</string>
+    <string name="Text_btname">Name</string>
+    <string name="Text_btmax">Mac&#160;&#160;</string>
+    <string name="button_btcon">Connect</string>
+    <!-- wifi页面 -->
+    <string name="Text_wifi">Wifi Port</string>
+    <string name="Text_ip">Address </string>
+    <string name="Text_port">Port</string>
+    <string name="button_wificon">Connect</string>
+    <!-- usb页面 -->
+    <string name="Text_usbName">USB Port</string>
+    <string name="Text_usb">USB</string>
+    <string name="button_usbcon">Connect</string>
+    <!-- com页面 -->
+    <string name="Text_comName">Serial Port</string>
+    <string name="Text_comBaud">Baudrate</string>
+    <string name="Text_com">Serial</string>
+    <string name="button_comcon">Connect</string>
+    <!-- tab页面 -->
+    <string name="tab_general">General</string>
+    <string name="tab_barcode">Barcode</string>
+    <string name="tab_textapply">Apply</string>
+    <string name="tab_lan">MultLang</string>
+    <string name="tab_pic">Draw</string>
+    <string name="tab_picapply">Apply</string>
+    <string name="button_desktop">Desktop Print</string>
+</resources>

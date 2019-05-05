@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.print.demorego"
+    android:versionCode="2"
+    android:versionName="2.0" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="17" />
+
+    <uses-feature android:name="android.hardware.usb.host" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="utils.ApplicationContext"
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@drawable/icon"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/app_theme" >
+        <activity
+            android:name="com.print.demo.firstview.ConnectAvtivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+                android:resource="@xml/device_filter" />
+        </activity>
+        <activity
+            android:name="com.print.demo.printview.TextFirstActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.print.demo.printview.TextSecondActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.print.demo.printview.TextTabsActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.print.demo.printview.TextThirdActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.print.demo.printview.GraphicThirdActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.print.demo.printview.GraphicSecondActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.print.demo.printview.GraphicFirstActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.print.demo.printview.GraphicTabsActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.print.demorego.BluetoothActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.print.demo.secondview.PrintModeActivity"
+            android:screenOrientation="portrait" />
+
+        <provider
+            android:name="com.android.tools.ir.server.InstantRunContentProvider"
+            android:authorities="com.print.demorego.com.android.tools.ir.server.InstantRunContentProvider"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

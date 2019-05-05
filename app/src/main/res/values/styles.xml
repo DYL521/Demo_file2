@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="app_theme" parent="android:Theme.NoTitleBar">
+        <item name="android:windowBackground">@drawable/app_background</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="text_theme" parent="app_theme">
+        <item name="android:windowBackground">@drawable/app_background</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:ems">3</item>
+
+        <!-- <item name="android:textColor">@color/text</item> -->
+
+    </style>
+
+</resources>

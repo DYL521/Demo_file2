@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PrintDemo</string>
+    <!-- connect页面 -->
+    <string name="text_type">机型</string>
+    <string name="text_porttype">接口</string>
+    <string name="text_printway">传输方式</string>
+      <string name="TextView_linktest">跳转到下一页</string>
+    <string name="TextView_close">关闭</string>
+    <string name="mes_confail">连接失败</string>
+    <string name="mes_consuccess">连接成功</string>
+    <string name="mes_nextpage">请先连接</string>
+    <!-- printmode页面 -->
+    <string name="button_text">文本</string>
+    <string name="button_pic">图形</string>
+    <string name="button_label">标签打印</string>
+    <string name="mes_noeg">当前选择的不是标签打印机或当前打印机类型不支持</string>
+    <!-- general页面 -->
+    <string name="editText1">x</string>
+    <string name="editText2">y</string>
+     <string name="autoCompleteText_text">打印测试</string>
+    <string name="textView_3">宽</string>
+    <string name="textView_4">高</string>
+    <string name="checkBox01">倍宽</string>
+    <string name="checkBox02">倍高</string>
+    <string name="checkBox03">加粗</string>
+    <string name="checkBox04">下划线</string>
+    <string name="checkBox05">小字体</string>
+    <string name="checkBox06">标签</string>
+    <string name="checkBox07">反白</string>
+    <string name="radio0">左对齐</string>
+    <string name="radio1">居中</string>
+    <string name="radio2">右对齐</string>
+    <string name="button_printtext"> 打                 印  </string>
+    <string name="button_state">状态查询</string>
+    <string name="button_cutpaper"> 切纸  </string>
+     <string name="mes_stateOK">打印机状态：正确</string>
+    <string name="mes_statePE">打印机状态：缺纸</string>
+    <string name="mes_stateNet">打印机状态：网络异常</string>
+    <!-- barcode页面 -->
+    <string name="barcode">一维码</string>
+    <string name="QRcode">二维码</string>
+    <!-- <string name="bartype">文本</string> -->
+    <string name="textView_bartype">类型</string>
+    <string name="textView_bartext">内容</string>
+    <string name="textView_barwide">宽度</string>
+    <string name="textView_barhight">高度</string>
+    <string name="textView_barhri">位置</string>
+    <string name="textView_barsize">放大</string>
+    <string name="textView_barversion">版本</string>
+    <string name="textView_barerr">纠错</string>
+    <string name="textView_barlines">行字</string>
+    <string name="button_barPrint">打印</string>
+    <!-- textapply页面和 picapply页面差不多可参考 -->
+    <string name="button_movie">电影票</string>
+    <string name="button_fire">火车票</string>
+    <string name="button_shopping">购物劵</string>
+    <!-- lang页面和printdraw,general页面是一样的可以用一个 -->
+    <string name="checkBox_lanlab">标签</string>
+    <string name="textView_lanw">宽</string>
+    <string name="textView_lanh">高</string>
+    <string name="button_printlan">打印</string>
+    <string name="autoCompleteText_lan">汉语 --> 我爱你\r\n英语 --> I love you\r\n法语 --> Je t`aime \r\n德语 --> Ich liebe Dich\r\n芬兰 --> Minarakastan sinua\r\n荷兰 --> IK hou van jou\r\n捷克 --> Miluji te\r\n丹麦 --> Jeg elsker dig\r\n
+	俄罗斯 --> Я люблю тебя\r\n
+	日本 --> あいしてる \r\n 
+	韩语 --> 사랑해 \r\n
+	泰国 --> Ch`an Rak Khun\r\n
+	越南 --> Em ye`u anh \r\n
+	冰岛 --> e`g elska tig\r\n
+	瑞典 --> Jag lskar dig\r\n
+	犹太语 --> Ani ohev otach\r\n
+	匈牙利 --> Szeretlek\r\n
+	希腊语 --> S`agapo\r\n
+	立陶宛 --> Tave Myliu/r/n </string>
+    <!-- printdraw页面 -->
+    <string name="checkBox_pic">标签</string>
+    <string name="textView3">宽</string>
+    <string name="textView4">高</string>
+    <string name="button_pridraw">打印</string>
+    <!-- picapply页面 -->
+    <string name="button_picmovie">电影票</string>
+    <string name="button_picfire">火车票</string>
+    <string name="button_picshopping">购物劵</string>
+     <string name="button_pictable">打印表格</string>
+    <!-- bluetooth页面 -->
+    <string name="Text_bt">蓝牙端口</string>
+    <string name="Text_btname">蓝牙名称</string>
+    <string name="Text_btmax">蓝牙地址</string>
+    <string name="button_btcon">连接</string>
+    <!-- wifi页面 -->
+    <string name="Text_wifi">无线端口</string>
+    <string name="Text_ip">IP地址</string>
+    <string name="Text_port">端口</string>
+    <string name="button_wificon">连接</string>
+    <!-- usb页面 -->
+    <string name="Text_usbName">USB端口</string>
+    <string name="Text_usb">USB</string>
+    <string name="button_usbcon">连接</string>
+    <!-- com页面 -->
+
+    <string name="Text_comName">串口端口</string>
+    <string name="Text_com">串口</string>
+    <string name="Text_comBaud">波特率</string>
+    <string name="button_comcon">连接</string>
+    <!-- tab页面 -->
+    <string name="tab_general">通用</string>
+    <string name="tab_barcode">条码</string>
+    <string name="tab_textapply">应用</string>
+    <string name="tab_lan">多语言</string>
+    <string name="tab_pic">绘图</string>
+    <string name="tab_picapply">应用</string>
+    <string name="button_desktop">桌面打印</string>
+</resources>

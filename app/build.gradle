@@ -1,0 +1,23 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "28.0.3"
+
+    defaultConfig {
+        applicationId "com.print.demorego"
+        minSdkVersion 7
+        targetSdkVersion 17
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs\\armeabi-v7a', include: ['*.aar', '*.jar'], exclude: [])
+}
